@@ -93,7 +93,9 @@ a {
   width: 90%;
   top: 0;
   left: 0;
-  margin-left: 5%;
+}
+.hero-text{
+  margin-left: 15%;
 }
 .hero-text h4 {
   color: var(--color-10);
@@ -103,7 +105,7 @@ a {
 .hero-text h1 {
   color: var(--color-10);
   padding: 0 0 3%;
-  font-size: clamp(2vw, 5vw, 60px);
+  font-size: clamp(2vw, 5vw, 50px);
 }
 .hero-text a {
   color: var(--color-21);
@@ -145,6 +147,10 @@ a {
   width: 100%;
   text-align: center;
   color: var(--color-10);
+}
+/* about section */
+.about-section {
+  padding: 100px 0px;
 }
 .about-even-column {
   display: flex;
@@ -263,8 +269,10 @@ a {
 }
 
 /* news section */
-.news-section{
+.news-section {
   padding: 150px 0px;
+}
+.news-heading {
   text-align: center;
 }
 .news-card {
@@ -287,20 +295,20 @@ a {
 .news-box p {
   color: var(--color-10);
   font-size: 10px;
-
 }
 .news-box ul {
   display: flex;
-      padding: 20px 0px 10px;
+  padding: 20px 0px 10px;
 }
 .news-box ul li {
   color: var(--color-10);
   margin-right: 20px;
   font-size: 10px;
 }
-
-
-.news-btn a{
+.news-btn {
+  text-align: center;
+}
+.news-btn a {
   padding: 10px 20px;
   background-color: var(--color-1);
   color: var(--color-21);
