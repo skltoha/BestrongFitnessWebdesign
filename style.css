@@ -431,10 +431,10 @@ input[type="submit"] {
   background-color: var(--color-1);
   color: var(--color-21);
   border-radius: 5px;
+  cursor: pointer;
 }
 
 input::placeholder,
 textarea::placeholder {
   color: #bbbbbb;
-  padding: 10px 10px;
 }
