@@ -170,6 +170,11 @@ a {
   width: 50%;
   align-items: center;
 }
+.about-text h4 {
+}
+.about-text p {
+  margin-bottom: 20px;
+}
 .colums {
   width: 48%;
 }
@@ -229,6 +234,21 @@ a {
   font-size: min(12px, 30px);
 }
 
+/* meet section start */
+.meet-section {
+  padding: 140px 0px;
+}
+.meet-column-1 {
+  width: 60%;
+  margin: 0px auto;
+  text-align: center;
+  padding: 50px 0px;
+}
+.meet-column-1 hr {
+  width: 50px;
+  margin: 10px auto 20px;
+  border: 2px solid var(--color-1);
+}
 .meet-column-box {
   display: flex;
   gap: 10px;
@@ -289,7 +309,7 @@ a {
   background-color: #13191a;
 }
 .news-box h3 {
-  color: var(--color-10);
+  color: var(--color-1);
   font-size: 14px;
   padding: 20px 0px;
 }
@@ -314,4 +334,26 @@ a {
   background-color: var(--color-1);
   color: var(--color-21);
   border-radius: 5px;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: var(--color-1);
+}
+.contact-section {
+  display: flex;
+  background-color: #181a1f;
+}
+.contact-form {
+  width: 50%;
+  padding: 100px;
+}
+.contact-form h1 {
+  color: var(--color-10);
+}
+.contact-form hr {
+  width: 50px;
+  border: 2px solid var(--color-1);
+}
+.contact-pic {
+  width: 50%;
 }
