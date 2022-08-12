@@ -393,6 +393,9 @@ select {
   background-color: transparent;
   color: #bbbbbb;
 }
+select {
+  height: 40px;
+}
 input[type="submit"] {
   width: 100%;
   box-sizing: border-box;
