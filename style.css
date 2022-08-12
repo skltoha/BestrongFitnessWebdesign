@@ -360,12 +360,25 @@ a {
   background-color: var(--color-1);
 }
 .contact-section {
+  position: relative;
+}
+.contact-backgrount {
   display: flex;
   background-color: #181a1f;
 }
-.contact-form {
+
+.contact-area {
   width: 50%;
-  padding: 100px;
+}
+.contact-forms {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 200px 0px 0px;
+}
+.contact-form {
+  width: 60%;
 }
 .contact-form h1 {
   color: var(--color-10);
@@ -376,6 +389,7 @@ a {
 }
 .contact-pic {
   width: 50%;
+  text-align: end;
 }
 
 /* forms area start */
