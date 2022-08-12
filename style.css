@@ -191,6 +191,11 @@ a {
 .classes-text h1 {
   color: var(--color-10);
 }
+.classes-text hr {
+  width: 50px;
+  margin: 10px auto 20px;
+  border: 2px solid var(--color-1);
+}
 .classes-text p {
   width: 70%;
   margin: auto;
@@ -266,16 +271,30 @@ a {
 .card-text {
   text-align: center;
 }
+.card-text h2 {
+  font-size: 20px;
+  margin: 5px 0px;
+}
+.card-text h4 {
+  font-size: 14px;
+}
 .card-text ul {
   display: flex;
   list-style: none;
   justify-content: center;
 }
 .card-text ul li {
+  margin: 10px 10px;
 }
 .card-text ul li a {
 }
-
+.team-btn {
+  margin-top: 50px;
+  text-align: center;
+}
+.team-btn a {
+  display: inline-block;
+}
 /* testimonials */
 .testimonial-section {
   width: 100%;
