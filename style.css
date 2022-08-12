@@ -39,8 +39,19 @@ li {
 a {
   text-decoration: none;
 }
+.header-background {
+  background-color: rgba(36, 39, 46, 0.7);
+}
+.header-color {
+  color: var(--color-10) !important;
+}
 .menu-area {
+  width: 100%;
   padding: 20px 0px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
 }
 .navigation-area {
   display: flex;
@@ -80,6 +91,7 @@ a {
 .hero-section {
   position: relative;
   width: 100%;
+  margin-top: 70px;
 }
 
 .container {
