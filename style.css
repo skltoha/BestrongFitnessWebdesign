@@ -294,6 +294,7 @@ a {
 }
 .team-btn a {
   display: inline-block;
+  text-transform: capitalize;
 }
 /* testimonials */
 .testimonial-section {
@@ -375,4 +376,36 @@ a {
 }
 .contact-pic {
   width: 50%;
+}
+
+/* forms area start */
+form {
+  width: 60%;
+}
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 10px 0px;
+  padding: 10px 10px;
+  border: 1px solid #5eb6e1;
+  background-color: transparent;
+  color: #bbbbbb;
+}
+input[type="submit"] {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 10px 0px;
+  padding: 10px 10px;
+  border: 1px solid #5eb6e1;
+  background-color: var(--color-1);
+  color: var(--color-21);
+  border-radius: 5px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #bbbbbb;
+  padding: 10px 10px;
 }
