@@ -54,6 +54,7 @@ a {
 }
 .primary-nav-area ul li a {
   padding: 5px 20px;
+  color: #000000;
 }
 .contact-number {
   display: flex;
@@ -94,7 +95,7 @@ a {
   top: 0;
   left: 0;
 }
-.hero-text{
+.hero-text {
   margin-left: 15%;
 }
 .hero-text h4 {
