@@ -311,7 +311,6 @@ a {
 /* testimonials */
 .testimonial-section {
   width: 100%;
-  height: 536px;
   background-color: #181a1f;
   text-align: center;
   padding: 100px 0px;
@@ -437,4 +436,71 @@ input::placeholder,
 textarea::placeholder {
   color: #bbbbbb;
   padding: 10px 10px;
+}
+
+/* footer section start */
+.fitness-footer {
+  padding-top: 100px;
+  background-color: var(--color-7);
+}
+.footer-content {
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-10);
+}
+.footer-logo {
+  width: 45%;
+}
+.footer-logo img {
+  align-items: flex-end;
+}
+.quick-contact {
+  width: 20%;
+}
+.quick-contact h2 {
+}
+.quick-contact p {
+}
+.popular-tag {
+  width: 30%;
+}
+.popular-tag h2 {
+}
+.footer-nav {
+  padding: 10px 0px;
+  background-color: var(--color-1);
+}
+.footer-nav-area {
+}
+.footer-nav-area ul {
+  display: flex;
+  justify-content: center;
+}
+.footer-nav-area ul li {
+  margin: 0px 20px;
+}
+.footer-nav-area ul li a {
+  color: var(--color-21) !important;
+  display: block;
+}
+.footer-copywrite {
+}
+.footer-copywrite h3 {
+  color: #f6f7fb;
+  padding: 20px 0px;
+  font-size: 12px;
+  text-align: center;
+}
+/* footer section end */
+
+.carousel-item {
+  padding: 100px 200px;
+}
+.carousel-item p {
+  color: var(--color-10);
+}
+.carousel-item img {
+  width: 10%;
+  height: auto;
 }
