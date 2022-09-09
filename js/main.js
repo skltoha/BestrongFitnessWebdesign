@@ -20,4 +20,11 @@
       $("header").show();
     }
   });
+
+  $("#some-element").loading();
+
+
+  $("#loading-custom-overlay").loading({
+    overlay: $("#custom-overlay"),
+  });
 })(jQuery);
